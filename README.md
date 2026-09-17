@@ -15,9 +15,9 @@ If you have any comments or queries, please contact:
 
 The repository is designed to be fully reproducible across operating systems. All internal paths are relative.
 
-All data required to reproduce the analyses presented in the manuscript are included in the `data/` directory of this repository. No external datasets are required to reproduce the results.
+All data required to reproduce the analyses presented in the manuscript are included in the `data/` directory of this repository. No external datasets are required to reproduce the results. 
 
-The repository combines Python and R workflows to generate synthetic melanopic exposure sequences, compute summary metrics, and reproduce all figures and tables reported in the manuscript.
+The repository combines Python and R workflows to generate synthetic melanopic exposure sequences, compute summary metrics, and reproduce all figures and tables reported in the manuscript. Running the complete workflow generates the full `results/` directory, including all required subdirectories and output files.
 
 The input files included in the `data/` directory were derived from measurements collected as part of the **SCENES** dataset. The complete SCENES dataset, including the original measurement data and accompanying documentation, is publicly available through the EDMOND research data repository:
 
@@ -95,11 +95,12 @@ This environment contains all dependencies required to run the Jupyter notebook 
 
 The LightLogR analysis is defined in `code/LightLogR.qmd`.
 
-R package versions are recorded in `renv.lock`, which targets **R 4.5.0**. Quarto is installed separately and is not managed by `renv`.
+R package versions are recorded in `renv.lock`, which targets **R 4.6.1**. Quarto is installed separately and is not managed by `renv`.
 
 #### Prerequisites
 
-- R 4.5.0
+- R 4.6.1
+- Rtools45
 - Quarto CLI
 - Git
 
@@ -126,7 +127,7 @@ quarto render code/LightLogR.qmd -P n_columns:101
 
 This command processes the first 100 generated sequences from each input dataset and is intended for testing purposes with lower computational requirements.
 
-To reproduce the complete LightLogR analysis, run:
+After generating the sequence files with the Python code described in the Workflow section, run the complete LightLogR analysis:
 
 ```bash
 quarto render code/LightLogR.qmd
