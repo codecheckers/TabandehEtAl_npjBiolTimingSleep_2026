@@ -1,0 +1,37 @@
+---
+version: https://codecheck.org.uk/spec/config/1.0/
+
+manifest:
+  - file: NA
+    comment: "See report linked for screenshots and details of code check."
+
+paper:
+  title: "Constructing melanopic light exposure profiles from sparse daily-route measurements"
+  authors:
+    - name: Niloufar Tabandeh
+      ORCID: 0000-0002-7971-8589
+    - name: Jennifer A. Veitch
+      ORCID: 0000-0003-3183-4537
+    - name: Manuel Spitschan
+      ORCID: 0000-0002-8572-9268
+  reference: https://doi.org/10.5281/zenodo.21558893
+
+codechecker:
+  - name: Bruno de Paula Kinoshita
+    ORCID: 0000-0001-8250-4074
+
+report: https://doi.org/10.5281/zenodo.22935939
+summary: >
+  Reproduction using the Workflow hosted at https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026, using the
+  Git commit e4a1b5500394de6e317aabd8315df60b8bedc6e3. Installed the dependencies on a Linux Ubuntu 26.04, using micromamba,
+  with R 4.6.1, latest quarto and renv, following the instructions from the project README file. There were minor issues
+  during the dependencies installation that authors started working on improvements for the documentation. A Jupyter
+  notebook was used, as instructed in the project README, to execute part of the workflow. The actual data processing
+  was verified using the R Quarto notebook, that took about 11 hours to complete. After that, the remaining steps of
+  the Jupyter notebook were executed, and produced the same figures and table data used in the article. The data,
+  plots, tables, all looked correct.
+
+repository: https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026
+check_time: "2026-09-20 10:32:00"
+certificate: 2026-018
+
