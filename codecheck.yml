@@ -14,7 +14,7 @@ paper:
       ORCID: 0000-0003-3183-4537
     - name: Manuel Spitschan
       ORCID: 0000-0002-8572-9268
-  reference: https://doi.org/10.5281/zenodo.21558893
+  reference: https://doi.org/10.1038/s44323-026-00108-x
 
 codechecker:
   - name: Bruno de Paula Kinoshita
@@ -33,5 +33,5 @@ summary: >
 
 repository: https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026
 check_time: "2026-09-20 10:32:00"
-certificate: 2026-018
+certificate: 2026-025
 
