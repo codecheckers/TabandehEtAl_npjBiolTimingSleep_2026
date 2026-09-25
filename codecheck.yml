@@ -13,6 +13,8 @@ paper:
   reference: https://doi.org/10.1038/s44323-026-00108-x
 
 manifest:
+  - file: codecheck/terminal_output.log
+    comment: "The terminal output of executing the R script on my personal laptop."
   - file: codecheck/code/LightLogR.html
     comment: "Updated notebook/document after re-running it locally."
   - file: codecheck/code/trajectory.ipynb
@@ -136,7 +138,7 @@ summary: >
   was verified using the R Quarto notebook, that took about 11 hours to complete. After that, the remaining steps of
   the Jupyter notebook were executed, and produced the same figures and table data used in the article. The data,
   plots, tables, all looked correct.
-repository: https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026
+repository: https://github.com/codecheckers/TabandehEtAl_npjBiolTimingSleep_2026
 check_time: "2026-09-20 10:32:00"
 certificate: 2026-025
 
