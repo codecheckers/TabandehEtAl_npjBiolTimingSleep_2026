@@ -1,10 +1,6 @@
 ---
 version: https://codecheck.org.uk/spec/config/1.0/
 
-manifest:
-  - file: NA
-    comment: "See report linked for screenshots and details of code check."
-
 paper:
   title: "Constructing melanopic light exposure profiles from sparse daily-route measurements"
   authors:
@@ -15,6 +11,116 @@ paper:
     - name: Manuel Spitschan
       ORCID: 0000-0002-8572-9268
   reference: https://doi.org/10.1038/s44323-026-00108-x
+
+manifest:
+  - file: codecheck/code/LightLogR.html
+    comment: "Updated notebook/document after re-running it locally."
+  - file: codecheck/code/trajectory.ipynb
+    comment: "Updated notebook/document after re-running it locally."
+  - file: codecheck/results/datatree.txt
+    comment: "Generated directory tree, produced after running the scripts locally."
+  - file: codecheck/results/plots/Figure1.pdf
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/Figure1.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/Figure10.pdf
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/Figure10.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/Figure11.pdf
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/Figure11.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/Figure12.pdf
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/Figure12.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/Figure2.pdf
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/Figure2.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/Figure9.pdf
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/Figure9.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/Models_distribution_grid.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/activity_block_matched.pdf
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/activity_block_matched.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/broad_context_matched.pdf
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/broad_context_matched.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/exact_slot_matched.pdf
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/exact_slot_matched.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/indoor_only_bound.pdf
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/indoor_only_bound.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/melanopic_trajectory_days.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/outdoor_only_bound.pdf
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/outdoor_only_bound.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/photopic_trajectory_days.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/tailored_model_dose_plot.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/tailored_model_effect_plot.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/unrestricted_pooled.pdf
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/plots/unrestricted_pooled.png
+    comment: "Plot used in the paper, recreated with R script locally on my personal laptop."
+  - file: codecheck/results/tables/LightLogR/metrics_raw/activity_block_matched_melanopic.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/LightLogR/metrics_raw/activity_block_matched_melanopic_numeric.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/LightLogR/metrics_raw/broad_context_matched_melanopic.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/LightLogR/metrics_raw/broad_context_matched_melanopic_numeric.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/LightLogR/metrics_raw/exact_slot_matched_melanopic.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/LightLogR/metrics_raw/exact_slot_matched_melanopic_numeric.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/LightLogR/metrics_raw/indoor_only_bound_melanopic.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/LightLogR/metrics_raw/indoor_only_bound_melanopic_numeric.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/LightLogR/metrics_raw/outdoor_only_bound_melanopic.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/LightLogR/metrics_raw/outdoor_only_bound_melanopic_numeric.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/LightLogR/metrics_raw/unrestricted_pooled_melanopic.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/LightLogR/metrics_raw/unrestricted_pooled_melanopic_numeric.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/pivot_melanopic_metadata_trajectory_canada.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/pivot_photopic_melanopic_trajectory_canada.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/pivot_summary_metrics_stats.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/pivot_summary_trajectory_canada.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/sequences/activity_block_matched_melanopic_sequence.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/sequences/broad_context_matched_melanopic_sequence.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/sequences/exact_slot_matched_melanopic_sequence.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/sequences/indoor_only_bound_melanopic_sequence.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/sequences/outdoor_only_bound_melanopic_sequence.csv
+    comment: "Paper table file recreated with Python and R locally."
+  - file: codecheck/results/tables/sequences/unrestricted_pooled_melanopic_sequence.csv
+    comment: "Paper table file recreated with Python and R locally."
 
 codechecker:
   - name: Bruno de Paula Kinoshita
@@ -30,7 +136,6 @@ summary: >
   was verified using the R Quarto notebook, that took about 11 hours to complete. After that, the remaining steps of
   the Jupyter notebook were executed, and produced the same figures and table data used in the article. The data,
   plots, tables, all looked correct.
-
 repository: https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026
 check_time: "2026-09-20 10:32:00"
 certificate: 2026-025

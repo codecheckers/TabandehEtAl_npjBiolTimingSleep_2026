@@ -1,0 +1,25 @@
+time,2023-06-14,2023-06-14,2023-06-14,2023-06-16,2023-06-16,2023-06-16,2023-06-19,2023-06-19,2023-06-19
+,Melanopic EDI (lx),lighting,scene,Melanopic EDI (lx),lighting,scene,Melanopic EDI (lx),lighting,scene
+08:00:00,19.0,Indoor (daylight),Indoor (bedroom),20.4,Indoor (mixed),Indoor (bedroom),23.0,Indoor (mixed),Indoor (bedroom)
+08:30:00,92.0,Indoor (daylight),Indoor (kitchen),70.8,Indoor (mixed),Indoor (corridor),81.1,Indoor (daylight),Indoor (corridor)
+09:00:00,4227.6,Outdoor (daylight),Outdoor (city),14421.8,Outdoor (daylight),Outdoor (countryside),6155.2,Indoor (daylight),Indoor (car)
+09:30:00,14287.4,Outdoor (daylight),Outdoor (countryside),13535.0,Outdoor (daylight),Outdoor (countryside),10942.8,Outdoor (daylight),Outdoor (countryside)
+09:45:00,7474.6,Indoor (daylight),Indoor (car),,,,,,
+10:00:00,11539.1,Outdoor (daylight),Outdoor (countryside),13503.6,Outdoor (daylight),Outdoor (countryside),11466.1,Outdoor (daylight),Outdoor (countryside)
+10:30:00,355.0,Indoor (mixed),Indoor (office),93.2,Indoor (electriclight),Indoor (office),3527.1,Indoor (daylight),Indoor (office)
+11:00:00,378.2,Indoor (mixed),Indoor (office),93.5,Indoor (electriclight),Indoor (office),3858.5,Indoor (daylight),Indoor (office)
+11:30:00,320.2,Indoor (mixed),Indoor (office),93.9,Indoor (electriclight),Indoor (office),4130.5,Indoor (daylight),Indoor (office)
+12:00:00,286.4,Indoor (mixed),Indoor (office),94.5,Indoor (electriclight),Indoor (office),4171.3,Indoor (daylight),Indoor (office)
+12:30:00,269.7,Indoor (mixed),Indoor (office),94.3,Indoor (electriclight),Indoor (office),3421.9,Indoor (daylight),Indoor (office)
+13:00:00,4439.6,Outdoor (daylight),Outdoor (park),14938.9,Outdoor (daylight),Outdoor (countryside),33750.6,Outdoor (daylight),Outdoor (road)
+13:30:00,551.7,Indoor (daylight),Indoor (kitchen),845.3,Indoor (mixed),Indoor (kitchen),1185.9,Indoor (daylight),Indoor (kitchen)
+14:00:00,248.2,Indoor (mixed),Indoor (office),97.9,Indoor (electriclight),Indoor (office),6252.4,Indoor (daylight),Indoor (office)
+14:30:00,207.8,Indoor (mixed),Indoor (office),99.9,Indoor (electriclight),Indoor (office),7325.8,Indoor (daylight),Indoor (office)
+15:00:00,245.8,Indoor (mixed),Indoor (office),100.5,Indoor (electriclight),Indoor (office),7678.2,Indoor (daylight),Indoor (office)
+15:30:00,185.7,Indoor (mixed),Indoor (office),100.6,Indoor (electriclight),Indoor (office),8660.9,Indoor (daylight),Indoor (office)
+16:00:00,5553.3,Outdoor (daylight),Outdoor (road),10945.2,Outdoor (daylight),Outdoor (countryside),7783.4,Outdoor (daylight),Outdoor (countryside)
+16:30:00,7709.9,Outdoor (daylight),Outdoor (countryside),14772.3,Outdoor (daylight),Outdoor (countryside),,,
+17:00:00,1408.0,Outdoor (daylight),Outdoor (city),2715.7,Outdoor (daylight),Outdoor (city),,,
+17:30:00,47.1,Indoor (daylight),Indoor (kitchen),22.2,Indoor (daylight),Indoor (bedroom),24.2,Indoor (daylight),Indoor (bedroom)
+18:00:00,18.4,Indoor (mixed),Indoor (bedroom),24.4,Indoor (daylight),Indoor (bedroom),46.3,Indoor (daylight),Indoor (bedroom)
+18:30:00,17.5,Indoor (mixed),Indoor (bedroom),,,,,,

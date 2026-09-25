@@ -1,0 +1,181 @@
+TabandehEtAl_npjBiolTimingSleep_2026/
+    ├── LICENSE
+    ├── README.md
+    ├── TabandehEtAl_npjBiolTimingSleep_2026.Rproj
+    ├── codecheck.yml
+    ├── environment.yml
+    └── renv.lock
+code/
+    ├── LightLogR.html
+    ├── LightLogR.qmd
+    └── trajectory.ipynb
+codecheck/
+    └── terminal_output.log
+│   code/
+│       └── LightLogR.html
+data/
+    ├── 20230614RoofBox1min.csv
+    ├── 20230616RoofBox1min.csv
+    ├── 20230619RoofBox1min.csv
+    ├── metadata_jeti_scenes.csv
+    ├── real_world_dataset.csv
+    └── tailored_trajectory_sequences.xlsx
+renv/
+    ├── activate.R
+    └── settings.json
+│   library/
+│   │   linux-ubuntu-resolute/
+│   │   │   R-4.6/
+│   │   │   │   x86_64-conda-linux-gnu/
+│   │   │   │   │   renv/
+│   │   │   │   │       ├── DESCRIPTION
+│   │   │   │   │       ├── INDEX
+│   │   │   │   │       ├── LICENSE
+│   │   │   │   │       ├── NAMESPACE
+│   │   │   │   │       ├── NEWS.md
+│   │   │   │   │       ├── README.md
+│   │   │   │   │       └── config.yml
+│   │   │   │   │   │   Meta/
+│   │   │   │   │   │       ├── Rd.rds
+│   │   │   │   │   │       ├── features.rds
+│   │   │   │   │   │       ├── hsearch.rds
+│   │   │   │   │   │       ├── links.rds
+│   │   │   │   │   │       ├── nsInfo.rds
+│   │   │   │   │   │       ├── package.rds
+│   │   │   │   │   │       └── vignette.rds
+│   │   │   │   │   │   R/
+│   │   │   │   │   │       ├── renv
+│   │   │   │   │   │       ├── renv.rdb
+│   │   │   │   │   │       └── renv.rdx
+│   │   │   │   │   │   bin/
+│   │   │   │   │   │       ├── renv
+│   │   │   │   │   │       └── renv.bat
+│   │   │   │   │   │   doc/
+│   │   │   │   │   │       ├── ci.R
+│   │   │   │   │   │       ├── ci.Rmd
+│   │   │   │   │   │       ├── ci.html
+│   │   │   │   │   │       ├── docker.R
+│   │   │   │   │   │       ├── docker.Rmd
+│   │   │   │   │   │       ├── docker.html
+│   │   │   │   │   │       ├── faq.R
+│   │   │   │   │   │       ├── faq.Rmd
+│   │   │   │   │   │       ├── faq.html
+│   │   │   │   │   │       ├── index.html
+│   │   │   │   │   │       ├── package-install.R
+│   │   │   │   │   │       ├── package-install.Rmd
+│   │   │   │   │   │       ├── package-install.html
+│   │   │   │   │   │       ├── package-sources.R
+│   │   │   │   │   │       ├── package-sources.Rmd
+│   │   │   │   │   │       ├── package-sources.html
+│   │   │   │   │   │       ├── packages.R
+│   │   │   │   │   │       ├── packages.Rmd
+│   │   │   │   │   │       ├── packages.html
+│   │   │   │   │   │       ├── packrat.R
+│   │   │   │   │   │       ├── packrat.Rmd
+│   │   │   │   │   │       ├── packrat.html
+│   │   │   │   │   │       ├── profiles.R
+│   │   │   │   │   │       ├── profiles.Rmd
+│   │   │   │   │   │       ├── profiles.html
+│   │   │   │   │   │       ├── python.R
+│   │   │   │   │   │       ├── python.Rmd
+│   │   │   │   │   │       ├── python.html
+│   │   │   │   │   │       ├── renv.R
+│   │   │   │   │   │       ├── renv.Rmd
+│   │   │   │   │   │       ├── renv.html
+│   │   │   │   │   │       ├── rsconnect.R
+│   │   │   │   │   │       ├── rsconnect.Rmd
+│   │   │   │   │   │       └── rsconnect.html
+│   │   │   │   │   │   ext/
+│   │   │   │   │   │       └── renv.c
+│   │   │   │   │   │   help/
+│   │   │   │   │   │       ├── AnIndex
+│   │   │   │   │   │       ├── aliases.rds
+│   │   │   │   │   │       ├── paths.rds
+│   │   │   │   │   │       ├── renv.rdb
+│   │   │   │   │   │       └── renv.rdx
+│   │   │   │   │   │   │   figures/
+│   │   │   │   │   │   │       └── logo.svg
+│   │   │   │   │   │   html/
+│   │   │   │   │   │       ├── 00Index.html
+│   │   │   │   │   │       └── R.css
+│   │   │   │   │   │   libs/
+│   │   │   │   │   │   repos/
+│   │   │   │   │   │   │   src/
+│   │   │   │   │   │   │   │   contrib/
+│   │   │   │   │   │   │   │       ├── PACKAGES
+│   │   │   │   │   │   │   │       ├── PACKAGES.gz
+│   │   │   │   │   │   │   │       ├── PACKAGES.rds
+│   │   │   │   │   │   │   │       └── renv_1.1.4.tar.gz
+│   │   │   │   │   │   resources/
+│   │   │   │   │   │       ├── WELCOME
+│   │   │   │   │   │       ├── activate.R
+│   │   │   │   │   │       ├── scripts-git-askpass.cmd
+│   │   │   │   │   │       ├── scripts-git-askpass.sh
+│   │   │   │   │   │       └── watchdog-process.R
+│   │   │   │   │   │   │   vendor/
+│   │   │   │   │   │   │       └── renv.R
+│   │   │   │   │   │   rstudio/
+│   │   │   │   │   │       └── addins.dcf
+│   │   │   │   │   │   schema/
+│   │   │   │   │   │       └── draft-07.renv.lock.schema.json
+│   │   │   │   │   │   sysreqs/
+│   │   │   │   │   │       └── sysreqs.json
+│   staging/
+results/
+    └── datatree.txt
+│   plots/
+│       ├── Figure1.pdf
+│       ├── Figure1.png
+│       ├── Figure10.pdf
+│       ├── Figure10.png
+│       ├── Figure11.pdf
+│       ├── Figure11.png
+│       ├── Figure12.pdf
+│       ├── Figure12.png
+│       ├── Figure2.pdf
+│       ├── Figure2.png
+│       ├── Figure9.pdf
+│       ├── Figure9.png
+│       ├── Models_distribution_grid.png
+│       ├── activity_block_matched.pdf
+│       ├── activity_block_matched.png
+│       ├── broad_context_matched.pdf
+│       ├── broad_context_matched.png
+│       ├── exact_slot_matched.pdf
+│       ├── exact_slot_matched.png
+│       ├── indoor_only_bound.pdf
+│       ├── indoor_only_bound.png
+│       ├── melanopic_trajectory_days.png
+│       ├── outdoor_only_bound.pdf
+│       ├── outdoor_only_bound.png
+│       ├── photopic_trajectory_days.png
+│       ├── tailored_model_dose_plot.png
+│       ├── tailored_model_effect_plot.png
+│       ├── unrestricted_pooled.pdf
+│       └── unrestricted_pooled.png
+│   tables/
+│       ├── pivot_melanopic_metadata_trajectory_canada.csv
+│       ├── pivot_photopic_melanopic_trajectory_canada.csv
+│       ├── pivot_summary_metrics_stats.csv
+│       └── pivot_summary_trajectory_canada.csv
+│   │   LightLogR/
+│   │   │   metrics_raw/
+│   │   │       ├── activity_block_matched_melanopic.csv
+│   │   │       ├── activity_block_matched_melanopic_numeric.csv
+│   │   │       ├── broad_context_matched_melanopic.csv
+│   │   │       ├── broad_context_matched_melanopic_numeric.csv
+│   │   │       ├── exact_slot_matched_melanopic.csv
+│   │   │       ├── exact_slot_matched_melanopic_numeric.csv
+│   │   │       ├── indoor_only_bound_melanopic.csv
+│   │   │       ├── indoor_only_bound_melanopic_numeric.csv
+│   │   │       ├── outdoor_only_bound_melanopic.csv
+│   │   │       ├── outdoor_only_bound_melanopic_numeric.csv
+│   │   │       ├── unrestricted_pooled_melanopic.csv
+│   │   │       └── unrestricted_pooled_melanopic_numeric.csv
+│   │   sequences/
+│   │       ├── activity_block_matched_melanopic_sequence.csv
+│   │       ├── broad_context_matched_melanopic_sequence.csv
+│   │       ├── exact_slot_matched_melanopic_sequence.csv
+│   │       ├── indoor_only_bound_melanopic_sequence.csv
+│   │       ├── outdoor_only_bound_melanopic_sequence.csv
+│   │       └── unrestricted_pooled_melanopic_sequence.csv
