@@ -1,0 +1,7 @@
+version: https://codecheck.org.uk/spec/config/1.0/
+certificate: 2023-001
+report: https://doi.org/10.5281/zenodo.1234567
+paper:
+  title: "Unclosed quote
+  authors:
+    - name: Jane Doe

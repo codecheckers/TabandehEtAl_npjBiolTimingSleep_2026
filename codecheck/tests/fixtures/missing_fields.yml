@@ -1,0 +1,7 @@
+version: https://codecheck.org.uk/spec/config/1.0/
+# Missing mandatory fields: manifest, codechecker, report
+paper:
+  title: A Paper Without Required Fields
+  authors:
+    - name: Jane Doe
+      ORCID: 0000-0002-1825-0097

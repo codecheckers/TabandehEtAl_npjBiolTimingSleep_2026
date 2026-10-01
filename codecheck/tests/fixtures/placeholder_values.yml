@@ -1,0 +1,22 @@
+version: https://codecheck.org.uk/spec/config/1.0/
+certificate: YYYY-001
+report: https://doi.org/10.5281/zenodo.XXXXXX
+
+paper:
+  title: FIXME add title
+  authors:
+    - name: TODO
+      ORCID: 0000-0000-0000-0000
+  reference: https://doi.org/10.1234/example
+
+repository: https://github.com/example/repo
+check_time: "2023-11-15T14:30:00"
+summary: TODO add summary
+
+codechecker:
+  name: FIXME
+  ORCID: 0000-0000-0000-0000
+
+manifest:
+  - file: figures/plot1.png
+    comment: example figure

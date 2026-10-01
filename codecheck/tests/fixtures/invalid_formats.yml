@@ -1,0 +1,21 @@
+version: https://codecheck.org.uk/spec/config/1.0/
+certificate: 23-1  # Invalid format, should be YYYY-NNN
+report: https://doi.org/10.5281/zenodo.1234567
+
+paper:
+  title: Test Paper with Invalid Formats
+  authors:
+    - name: Jane Doe
+      ORCID: 0000-INVALID  # Invalid ORCID format
+  reference: https://doi.org/10.1234/example
+
+repository: https://github.com/example/repo
+check_time: "2023-15-35T25:99:99"  # Invalid ISO date
+summary: Testing invalid formats
+
+codechecker:
+  name: Test Checker
+  ORCID: 1234-5678-9012-3456  # Invalid ORCID format
+
+manifest:
+  - file: figures/plot1.png

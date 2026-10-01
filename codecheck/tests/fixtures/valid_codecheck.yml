@@ -1,0 +1,26 @@
+version: https://codecheck.org.uk/spec/config/1.0/
+certificate: 2023-001
+report: https://doi.org/10.5281/zenodo.1234567
+
+paper:
+  title: A Valid Test Paper
+  authors:
+    - name: Jane Doe
+      ORCID: 0000-0002-1825-0097
+    - name: John Smith
+      ORCID: 0000-0001-5109-3700
+  reference: https://doi.org/10.1234/testpaper
+
+repository: https://github.com/testuser/test-repo
+check_time: "2023-11-15T14:30:00"
+summary: This is a valid test configuration.
+
+codechecker:
+  name: Test Checker
+  ORCID: 0000-0003-1419-2405
+
+manifest:
+  - file: figures/plot1.png
+    comment: Main results figure
+  - file: data/results.csv
+    comment: Output data

@@ -1,0 +1,13 @@
+((*- extends 'base.tex.j2' -*))
+
+((* block docclass *))
+\documentclass[fontsize=10pt,parskip]{scrartcl}
+((* endblock docclass *))
+((* block maketitle *))((* endblock maketitle *))
+((* block margins *))
+((* endblock margins *))
+((* block definitions *))
+((( super() )))
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Verbatim}{Verbatim}{fontsize=\footnotesize,breaklines=true}
+((* endblock definitions *))

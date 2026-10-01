@@ -1,0 +1,11 @@
+#!/bin/bash
+# Binder postBuild script to set up the environment
+
+# Get the current directory (repository root in Binder)
+REPO_DIR="$(pwd)"
+
+# Create a .pth file so Python can find the .codecheck modules
+# This adds the .codecheck directory to the Python path
+echo "${REPO_DIR}/.codecheck" > ${CONDA_DIR}/lib/python*/site-packages/codecheck.pth
+
+echo "✓ Binder setup complete! Python can now import from .codecheck/"
